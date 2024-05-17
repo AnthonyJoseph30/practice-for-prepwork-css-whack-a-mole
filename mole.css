@@ -7,17 +7,22 @@
 
 
 .mole-head{
-  height: 100px;
-  width: 100px;
-  border: 5px solid blue ;
-
+  height: 110px;
+  width: 116px;
+  position: absolute;
+  z-index: 1;
+  left: 14px;
+  top: 1.5px;
+  margin: 30px 30px;
 }
 
 .mole-hill{
   height: 100px;
   width: 200px;
-  position: absolute;
-  border: 5px solid red ;
+  position: relative;
+  top: 60px;
+  left: -30px;
+  margin: 40px 40px;
 
 }
 
