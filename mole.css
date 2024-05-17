@@ -5,24 +5,24 @@
   border: 0;
 }
 
-
-.mole-head{
-  height: 110px;
-  width: 116px;
-  position: absolute;
-  z-index: 1;
-  left: 14px;
-  top: 1.5px;
-  margin: 30px 30px;
+.wgs {
+  position: relative;
 }
 
-.mole-hill{
-  height: 100px;
-  width: 200px;
-  position: relative;
-  top: 60px;
-  left: -30px;
+.wgs__mole-head{
+  height: 372px;
+  width: 376px;
   margin: 40px 40px;
+  position: absolute;
+  left: 109px;
+}
+
+.wgs__dirt-pile{
+  height: 220px;
+  width: 749px;
+  margin: 40px 40px;
+  position: absolute;
+  top: 262px;
 
 }
 
