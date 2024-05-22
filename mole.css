@@ -7,13 +7,12 @@
 
 .wgs {
   position: relative;
-  display: inline-block;
   border: 10px solid red;
+  display: inline-block;
 }
 
 .wgs-1 {
   position: relative;
-  display: inline-block;
   border: 10px solid blue;
 
 }
@@ -21,31 +20,18 @@
 .wgs__mole-head {
   width: 376px;
   height: 356px;
-  margin: 40px 40px;
   position: absolute;
-  left: 69px;
-  display: inline-block;
-
+  left: 109px;
 }
 
 .wgs__dirt-pile { 
   width: 640px;
   height: 220px;
   position: absolute;
-  top: 301px;
-  display: inline-block;
-
-
+  top: 262px;
 }
 
 .wgs__mole-head--hidden {
-  height: 372px;
-  width: 376px;
-  position: absolute;
-  left: 107px;
-  margin-top: 540px;
-  display: inline-block;
-
 }
 
 
