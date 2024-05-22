@@ -3,12 +3,14 @@
   box-sizing: border-box;
   margin: 0;
   border: 0;
+  display: inline-block;
 }
 
 .wgs {
   position: relative;
-  border: 10px solid red;
-  display: inline-block;
+  border: 3px solid red;
+  width: 640px;
+  height: 482px;
 }
 
 .wgs-1 {
@@ -28,10 +30,14 @@
   width: 640px;
   height: 220px;
   position: absolute;
-  top: 262px;
+  top: 262px; 
 }
 
 .wgs__mole-head--hidden {
+  /* width: 376px;
+  /* height: 356px; */
+  position: absolute;
+  /* left: 109px; */ */
 }
 
 
