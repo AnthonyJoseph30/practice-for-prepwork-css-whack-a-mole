@@ -7,22 +7,44 @@
 
 .wgs {
   position: relative;
+  display: inline-block;
+  border: 10px solid red;
 }
 
-.wgs__mole-head{
+.wgs-1 {
+  position: relative;
+  display: inline-block;
+  border: 10px solid blue;
+
+}
+
+.wgs__mole-head {
+  width: 376px;
+  height: 356px;
+  margin: 40px 40px;
+  position: absolute;
+  left: 69px;
+  display: inline-block;
+
+}
+
+.wgs__dirt-pile { 
+  width: 640px;
+  height: 220px;
+  position: absolute;
+  top: 301px;
+  display: inline-block;
+
+
+}
+
+.wgs__mole-head--hidden {
   height: 372px;
   width: 376px;
-  margin: 40px 40px;
   position: absolute;
-  left: 109px;
-}
-
-.wgs__dirt-pile{
-  height: 220px;
-  width: 640px;
-  margin: 40px 40px;
-  position: absolute;
-  top: 262px;
+  left: 107px;
+  margin-top: 540px;
+  display: inline-block;
 
 }
 
