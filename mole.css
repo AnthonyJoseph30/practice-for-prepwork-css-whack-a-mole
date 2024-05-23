@@ -9,15 +9,15 @@
 
 .pf {
   display: grid;
-  grid-template-columns: 25% 25% 25% 25%;
-  grid-template-rows: 50% 50%;
+  grid-template-columns: repeat(4, 25%);
+  grid-template-rows: repeat(2, 50%);
 }
 
 .wgs {
   position: relative;
-  border: 3px solid red;
-  width: 320px;
-  height: 241px;
+  border: 2px solid red;
+  width: 350px;
+  height: 261px;
   overflow: hidden;
 }
 
